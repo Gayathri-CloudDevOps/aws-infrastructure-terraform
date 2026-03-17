@@ -61,7 +61,7 @@ resource "aws_instance" "web" {
               dnf install -y httpd
               systemctl start httpd
               systemctl enable httpd
-              echo "<h1>Cloud Service Implemented by Gayathri in Singapore</h1>" > /var/www/html/index.html
+              echo "<h1>Cloud Service Implemented</h1>" > /var/www/html/index.html
               EOF
 
   tags = { Name = "Web-Server-Project" }
