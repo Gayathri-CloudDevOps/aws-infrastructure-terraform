@@ -1,0 +1,16 @@
+# Local terraform directories
+.terraform/
+
+# .tfstate files (These contain sensitive data about your infrastructure)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Ignore sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore private keys
+*.pem
